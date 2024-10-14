@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e398dbd4-e59e-4eb3-9fe0-38a1dfe91131">
+  <producedTypes>
+    <objectType typeId="fc6b2aee-262e-4af9-892a-17b96eabeace" valueTypeId="c96d15f3-df17-4da3-b08c-38819194871c"/>
+    <managerType typeId="3c041b81-8b8f-40c7-bd81-533cca1bc63c" valueTypeId="e5e3b68c-a686-42ae-a83e-7203be562e8d"/>
+  </producedTypes>
+  <name>ВозведениеВСтепень</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возведение в степень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВозведениеВСтепень.Form.Форма</defaultForm>
+  <attributes uuid="a6a4c5c9-92b8-4ac6-9f7f-118474fea2a4">
+    <name>ДвухзначноеЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двухзначное число</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c2ee3a4-2bcb-4d18-ae43-9774aa7f3a3f">
+    <name>Степень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Степень</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6cd58889-9b4b-4ce8-8b9c-56ff9fb21b1c">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="39db5d9e-f97e-4cff-9372-b21402107063">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

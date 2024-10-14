@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a48eff91-dd7b-4407-83d5-cb49db4296a9">
+  <producedTypes>
+    <objectType typeId="dc82a74b-7131-4bbc-ba38-ef134124d001" valueTypeId="43b13487-e40d-4d72-aac6-a62b9e41a995"/>
+    <managerType typeId="07a6590a-dcd4-4f0d-90fd-2d79d7ed0dcc" valueTypeId="b1fdf6cb-49e3-413a-a49e-4237df2defe8"/>
+  </producedTypes>
+  <name>ВаловаяПрибыль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о прибыли</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВаловаяПрибыль.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ВаловаяПрибыль.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Отчет о прибыли</value>
+  </extendedPresentation>
+  <forms uuid="c7412d3e-8c4d-46b6-ad60-f985bc12bcf8">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a17bf48f-59bd-47a1-9772-72b9cfb76df6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

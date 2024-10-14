@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="440f0ed5-4837-4bcc-a1d5-385879294f3e">
+  <producedTypes>
+    <objectType typeId="c987507b-490e-4f66-9fa6-f4edf32d89dd" valueTypeId="89ee509d-c565-44d3-9b9a-8788d4ea53cd"/>
+    <refType typeId="6972b4dc-97b9-481f-8e4a-e32aad5dab17" valueTypeId="f191bace-b22b-44cd-af0b-a63b213255df"/>
+    <selectionType typeId="b5754529-15f6-46e7-9d99-2473b7fb0acf" valueTypeId="09c6b0ce-f768-4fd1-9f01-3f2b9fb99bd4"/>
+    <listType typeId="802586f1-e3df-4a18-89b7-643d2899b101" valueTypeId="01a89b57-d32c-4735-b268-319bd48ea1c7"/>
+    <managerType typeId="99663f41-e13c-4dbe-a764-43c36117cc8d" valueTypeId="88eb9cc9-5cee-4f77-9d60-ddf822e9202c"/>
+  </producedTypes>
+  <name>ВидыКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контактной информации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Виды контактной информации</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Виды контактной информации</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды контактной информации</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды контактной информации</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыКонтактнойИнформации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыКонтактнойИнформации.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыКонтактнойИнформации.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="d2948f19-7b76-4bca-a1ac-8995c9d79948">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="42200c3b-bc3c-4746-8b21-f08af0115c33">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d568557-b25c-43e3-9fd6-9aea45ea41f3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dd81532c-28c4-48d8-9b99-8db49c096701">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

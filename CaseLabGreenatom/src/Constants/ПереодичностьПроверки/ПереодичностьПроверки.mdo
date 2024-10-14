@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cf83cbd-3a05-43c9-a18e-4cb8c0a1f889">
+  <producedTypes>
+    <managerType typeId="5a8a0a18-8444-4bbf-98ee-bd6fc488975b" valueTypeId="b6c1e222-d70f-418e-84a5-7de0f16255d3"/>
+    <valueManagerType typeId="6a87edd5-0823-4134-8952-a400fbdb2ea8" valueTypeId="13ee9f4b-9b1c-48aa-a9fd-98dcfd85ba98"/>
+    <valueKeyType typeId="1a3bf165-e91b-49f7-bc9b-e58b6d11598d" valueTypeId="445e88d1-3c8e-4df5-b193-a15e420a4f27"/>
+  </producedTypes>
+  <name>ПереодичностьПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переодичность проверки</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>7</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

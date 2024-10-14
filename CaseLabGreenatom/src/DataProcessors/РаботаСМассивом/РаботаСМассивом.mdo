@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="249bf568-347b-4dfa-ba82-3bb7cd7da8ae">
+  <producedTypes>
+    <objectType typeId="43097eda-471b-48e4-ad54-be16f8c974ea" valueTypeId="9705c063-4d72-40f7-883c-9c4d233872da"/>
+    <managerType typeId="e2b65040-b0cb-40ce-b2da-89b85155672b" valueTypeId="cc402a51-ea8a-4877-a66e-3fa4ef3ae481"/>
+  </producedTypes>
+  <name>РаботаСМассивом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с массивом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСМассивом.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Работа с массивом</value>
+  </extendedPresentation>
+  <attributes uuid="68fb050e-60ab-416e-b1fe-7c6e9bbcb3ed">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2e34477c-f170-4314-80ea-28b5ad1ae3b4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

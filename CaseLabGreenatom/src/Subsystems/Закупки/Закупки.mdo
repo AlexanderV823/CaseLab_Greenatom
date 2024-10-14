@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7957aa9f-3774-49d6-8780-b2a677983ef0">
+  <name>Закупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Закупки</picture>
+  </picture>
+  <content>Document.ПоступлениеТоваров</content>
+  <content>DataProcessor.ЗагрузкаПрайсаИзЭксель</content>
+  <content>InformationRegister.Цены</content>
+  <content>Document.УстановкаЦен</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>DocumentJournal.ЖурналЗаказов</content>
+</mdclass:Subsystem>

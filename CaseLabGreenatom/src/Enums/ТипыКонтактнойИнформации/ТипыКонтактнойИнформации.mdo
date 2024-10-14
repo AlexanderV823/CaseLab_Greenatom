@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="473ae3be-851d-4350-a145-09a3c13ba14b">
+  <producedTypes>
+    <refType typeId="d60e94bf-b9d0-4e22-95d9-35839bd084e2" valueTypeId="67ae96e5-b7df-4f59-8c89-48bc78f09a4f"/>
+    <listType typeId="a617a813-1589-41c8-99b6-623dc8c4ce24" valueTypeId="4c016732-0dd4-4aaa-9aa9-9ad1a6e2ad64"/>
+    <managerType typeId="b2aabbf5-54bf-4beb-98f7-d2d186e7d485" valueTypeId="23aa5624-9de0-4e8a-be3f-b7f08a0a0d41"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контактной информации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы контактной информации</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы контактной информации</value>
+  </extendedListPresentation>
+  <enumValues uuid="e9c0fd0a-90c0-458d-9e84-f262fc630f41">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e983783e-cee2-43d4-8435-b42fef1254ef">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="97d64be7-9b50-4fa9-bae9-059854211498">
+    <name>EMail</name>
+    <synonym>
+      <key>ru</key>
+      <value>E mail</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28e54a22-e050-4a57-a59c-8e46e0244fea">
+    <name>Сайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d1dcc06-6aa6-46a2-8a43-9b73628d3fe4">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="f9533220-7340-42f8-bd69-a44a6645e622">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

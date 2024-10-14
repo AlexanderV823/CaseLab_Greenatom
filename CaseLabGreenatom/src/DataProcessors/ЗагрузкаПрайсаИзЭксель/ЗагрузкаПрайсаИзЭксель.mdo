@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bd9f216-949d-4aea-9766-c850dcea166c">
+  <producedTypes>
+    <objectType typeId="1ffc47e8-cf96-4a05-a733-b253d5452946" valueTypeId="3faecbc7-36a5-4353-8149-5cd15af0fee1"/>
+    <managerType typeId="97b2825d-323d-4c47-a139-33438684e703" valueTypeId="1478d713-bc14-40c2-be60-b2423e66184a"/>
+  </producedTypes>
+  <name>ЗагрузкаПрайсаИзЭксель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка прайса из XLS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПрайсаИзЭксель.Form.Форма</defaultForm>
+  <attributes uuid="4a6c675b-8811-48ce-a3e2-a98835c0b17c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e8872daa-c226-4bef-8787-c8749f9759e7">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2f2efc81-1e22-4b32-91b5-2a41a0fa0bd8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

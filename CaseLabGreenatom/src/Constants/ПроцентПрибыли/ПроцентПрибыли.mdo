@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c976e054-e994-4536-a55f-8094b9334038">
+  <producedTypes>
+    <managerType typeId="0a8435be-c7ee-466c-87b2-1c4f9e6856ac" valueTypeId="73702a1b-5695-4678-b2f3-119346a64718"/>
+    <valueManagerType typeId="7b462784-e24f-4482-bc53-ffda27e8e488" valueTypeId="df645674-c27f-483c-b2bd-53d8846aa3a7"/>
+    <valueKeyType typeId="a2f9786a-d111-4baa-bc72-8eda1f9962f0" valueTypeId="9d63311e-51ca-4df0-a12d-c2ef4ed57fb7"/>
+  </producedTypes>
+  <name>ПроцентПрибыли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент прибыли</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <multiLine>true</multiLine>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

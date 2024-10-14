@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8a9a623-146b-4c01-9d02-97a41e6c5297">
+  <name>Настройка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Настройки</picture>
+  </picture>
+  <content>Enum.Пол</content>
+  <content>Enum.ЮридическоеФизическоеЛицо</content>
+  <content>Enum.ТипНоменклатуры</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Enum.ТипыКонтактнойИнформации</content>
+  <content>Catalog.Склады</content>
+  <content>Constant.ПроцентПрибыли</content>
+  <content>DataProcessor.ВозведениеВСтепень</content>
+  <content>DataProcessor.ДеньНеделиКонцаГода</content>
+  <content>DataProcessor.РаботаСМассивом</content>
+  <content>CommonPicture.Отчетность</content>
+  <content>CommonPicture.Справочники</content>
+  <content>CommonPicture.Продажи</content>
+  <content>CommonPicture.Закупки</content>
+  <content>CommonPicture.Настройки</content>
+  <content>CommonPicture.Документы</content>
+  <content>Catalog.РеквизитыОрганизации</content>
+  <content>Enum.СтатусЗаказаПоставщика</content>
+  <content>InformationRegister.Изображения</content>
+  <content>Enum.СтатусЗаказаПокупателя</content>
+  <content>Constant.ВремяПриготовления</content>
+  <content>Constant.ВремяДоставки</content>
+  <content>InformationRegister.Промо</content>
+  <content>CommonPicture.ПиццаДляЧека</content>
+  <content>Constant.ИспользоватьПромоНаСкидки</content>
+  <content>Constant.ПереодичностьПроверки</content>
+  <content>InformationRegister.СтраховойЗапас</content>
+</mdclass:Subsystem>

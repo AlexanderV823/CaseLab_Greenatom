@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a85d19f0-ff5f-4954-a02b-14156c09ea52">
+  <producedTypes>
+    <refType typeId="3520be78-a77b-424c-b404-a90cb1b8675f" valueTypeId="f4eda287-db4c-4eb9-8148-94e7b8c12bc3"/>
+    <listType typeId="8e5fa9da-d8ab-44da-a67c-39e7a97560cc" valueTypeId="3a9e4a14-d187-4686-8a02-c43f68e769ad"/>
+    <managerType typeId="d87f8b5d-72b8-4d4c-925a-b55057965cc8" valueTypeId="eb38880f-5733-46d1-8469-dccabac44927"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="941730be-a0dc-413e-b19e-b048bb8e0726">
+    <name>БезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="172cb14c-c4ee-438f-a67f-1833e5504c2a">
+    <name>НДС10</name>
+    <synonym>
+      <key>ru</key>
+      <value>10%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bbc513d-cde8-4f81-b12d-cf66de3c6b2e">
+    <name>НДС20</name>
+    <synonym>
+      <key>ru</key>
+      <value>20%</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

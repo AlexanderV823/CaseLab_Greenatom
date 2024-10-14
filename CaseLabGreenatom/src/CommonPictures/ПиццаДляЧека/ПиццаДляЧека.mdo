@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55868d34-556c-4475-aa38-0d04100f25dd">
+  <name>ПиццаДляЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пицца для чека</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

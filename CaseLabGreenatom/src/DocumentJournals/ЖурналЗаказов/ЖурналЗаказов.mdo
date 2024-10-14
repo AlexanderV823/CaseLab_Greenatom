@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a85801bd-561f-497b-843a-e3fafa7daaf1">
+  <producedTypes>
+    <selectionType typeId="68fdedc2-64ec-4238-885e-228a6002d479" valueTypeId="e7162e4f-bd0e-40a8-8303-9c46ea6b5e71"/>
+    <listType typeId="28153527-3dca-44d3-9649-4a298014beef" valueTypeId="e9e5e971-ffe9-464d-8b2d-0c89fb222df9"/>
+    <managerType typeId="2bc7bf45-9fdd-43a7-8f6c-4efd443c3fb8" valueTypeId="47ed656f-7055-458f-97ad-ff8ceeb4ba4e"/>
+  </producedTypes>
+  <name>ЖурналЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал заказов</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналЗаказов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЗаказПоставщику</registeredDocuments>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал заказов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Журнал заказов</value>
+  </extendedListPresentation>
+  <columns uuid="0691e358-01eb-408c-8e2f-4d6c3c63eb88">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ЗаказПоставщику.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="7f54c240-94c3-4a9e-9a96-e070b7f4e464">
+    <name>ДатаПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поставки</value>
+    </synonym>
+    <references>Document.ЗаказПоставщику.Attribute.ДатаПоставки</references>
+  </columns>
+  <columns uuid="982420b7-d2f4-4132-bcaa-12196a452ffd">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <references>Document.ЗаказПоставщику.Attribute.Статус</references>
+  </columns>
+  <columns uuid="fc77a3f7-1462-4136-abf5-da1b2b6af266">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ЗаказПоставщику.Attribute.Ответственный</references>
+  </columns>
+  <forms uuid="6c78480f-50db-4d5e-b48f-abd8f29abad4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5bca7e7-e433-4e9e-9a0c-bcbbfa54543f">
+  <producedTypes>
+    <managerType typeId="4a5bb0c9-3d18-456d-9f88-af04d2529fe8" valueTypeId="cb27bf25-a5eb-463c-a144-46f306ec9131"/>
+    <valueManagerType typeId="969bb78f-e7c8-4ddd-ae85-2c052113398c" valueTypeId="df94c838-ec67-4a36-92bb-5cd1b398cbb4"/>
+    <valueKeyType typeId="471e2187-a83f-4941-9340-8d815d36a8ac" valueTypeId="2f3cc3bd-f611-4d69-b86e-c81f37f8dcca"/>
+  </producedTypes>
+  <name>ВремяДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время доставки</value>
+  </synonym>
+  <comment>Указывается значение в секундах</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

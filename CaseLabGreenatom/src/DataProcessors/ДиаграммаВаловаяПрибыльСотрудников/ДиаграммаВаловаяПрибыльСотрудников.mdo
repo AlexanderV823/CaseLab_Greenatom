@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d821bec-9979-43aa-83fe-0688d20edf50">
+  <producedTypes>
+    <objectType typeId="791f0ccf-67c2-4f34-8b99-15de89fb58a0" valueTypeId="a2154ff7-b305-4bf0-a988-541a61982da6"/>
+    <managerType typeId="c43c5ef0-c5f4-4571-bd80-4ac8d780e170" valueTypeId="b1596163-e629-4476-a23c-a60a20e55b0c"/>
+  </producedTypes>
+  <name>ДиаграммаВаловаяПрибыльСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диаграмма валовая прибыль сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДиаграммаВаловаяПрибыльСотрудников.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Прибыль сотрудников в текущем месяце</value>
+  </extendedPresentation>
+  <attributes uuid="cec483c9-2b75-4a74-b6f9-69114ce028fd">
+    <name>Диаграмма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диаграмма</value>
+    </synonym>
+    <type>
+      <types>Chart</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6f8669fd-8ad9-4425-819d-6128a96cd886">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

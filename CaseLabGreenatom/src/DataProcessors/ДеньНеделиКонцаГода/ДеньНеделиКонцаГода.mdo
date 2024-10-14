@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7455404b-9942-476c-9534-79d4731c6757">
+  <producedTypes>
+    <objectType typeId="77cad883-915a-43c2-af9d-5450a016c1a4" valueTypeId="c27abad3-b3b4-4b1a-ba1c-279cb6ac97df"/>
+    <managerType typeId="54b5657e-2408-42df-a204-b22bb402eb6f" valueTypeId="f332220b-09f9-417e-95b7-7c1a123771fb"/>
+  </producedTypes>
+  <name>ДеньНеделиКонцаГода</name>
+  <synonym>
+    <key>ru</key>
+    <value>День недели конца года</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДеньНеделиКонцаГода.Form.Форма</defaultForm>
+  <forms uuid="fde8ba43-aeb6-4f94-b623-2d343952af1b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

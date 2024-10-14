@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10534b14-73c6-471d-8018-7c937b685c06">
+  <producedTypes>
+    <selectionType typeId="c195e755-e8a3-4d03-9d6c-1bca539554d0" valueTypeId="73c0f731-a2a4-4585-a4d2-786a878e0678"/>
+    <listType typeId="982f5ae4-06ed-4957-9c75-cd59b6a1211d" valueTypeId="b4beb573-2be0-4072-b002-d12305876dd7"/>
+    <managerType typeId="5a2caa13-e88e-423f-b692-fa34fbb705eb" valueTypeId="8e98c2c3-2605-49ac-bfe5-adbaa2e00496"/>
+    <recordSetType typeId="7590b548-582c-43e6-b787-e7b8c47d5fec" valueTypeId="ec1e8eeb-44cb-44c5-ab99-6dfef2fbeca5"/>
+    <recordKeyType typeId="00672bab-f961-444b-a13d-f323a74c3787" valueTypeId="e82a849d-ac80-4b51-aa1d-deb7c9bf813e"/>
+    <recordType typeId="daf0eba4-6c57-495c-a830-535ba97125ca" valueTypeId="fb22beb9-3036-44c0-8dfb-93a3a30472b7"/>
+    <recordManagerType typeId="17245e96-2b6e-4f94-8cc2-46a35dcc2233" valueTypeId="a1baec1d-0992-42f8-a9cb-9d3517c0dedb"/>
+  </producedTypes>
+  <name>СтраховойЗапас</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страховой запас</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтраховойЗапас.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Страховые запасы</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Страховые запасы</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Страховые запасы</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Страховые запасы</value>
+  </extendedListPresentation>
+  <resources uuid="569d9b9a-f25f-44f1-ad96-d7fd6ce2f7f7">
+    <name>СтраховойЗапас</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховой запас</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="670d42c9-565c-490e-902a-87ae1b29e88b">
+    <name>СрокПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок поставки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d50c52db-f789-43b9-ade5-aee05da37ff1">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ad178e96-ac6b-4f10-9d77-5153a1f49804">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

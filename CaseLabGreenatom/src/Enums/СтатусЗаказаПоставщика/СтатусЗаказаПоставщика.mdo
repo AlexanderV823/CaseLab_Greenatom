@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05677bb7-ce09-4b9c-941f-db4e08a6de88">
+  <producedTypes>
+    <refType typeId="f600195d-b127-4965-b820-a936dfdc57cb" valueTypeId="d8673cd6-c58c-4932-bc63-3f1bfc65cd28"/>
+    <listType typeId="7fae7b6f-7acc-4617-9ea6-50cf0732a72c" valueTypeId="6aedce7b-0172-4c35-ae93-49979d257550"/>
+    <managerType typeId="1921afa0-cb53-4d2a-9e7a-786e2ba6ecb3" valueTypeId="cdc74677-e948-44e3-9178-c9f9c0fe5b48"/>
+  </producedTypes>
+  <name>СтатусЗаказаПоставщика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус заказа поставщика</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="caa11315-6c91-4e56-b920-2eca5cac6958">
+    <name>Создан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f261da5-9900-4cc4-bd14-271484ae7a76">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90ffffcf-a509-4b73-8d3b-c763ab694474">
+    <name>НаправленПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направлен поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec4349c9-c7bd-4d44-9611-3d0e4e0f6ac4">
+    <name>Исполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36485bfc-4d42-4d49-aa97-800939f7d8bf">
+    <name>Просрочен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2918cf6f-ccfb-44b0-917c-443d5668ff59">
+    <name>ЗавтраПоставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завтра поставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ace6fad-7ccb-4196-96e1-3e66e676cf7a">
+    <name>СегодняПоставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегодня поставка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fa05d4d-9703-4de2-a23b-4e310627f2c9">
+  <name>КафеДелоСемейное</name>
+  <synonym>
+    <key>ru</key>
+    <value>ООО «Кафе - Дело семейное»</value>
+  </synonym>
+  <comment>ИБ торгового предприятия ООО «Кафе - Дело семейное»</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e1520d9b-6c1f-4270-8c7d-753633e5752a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ba2e13ac-baf1-484e-95dd-dbb3ecd4f5ab"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a82a25c3-5cb6-4bf2-b4a6-e3455c8a8756"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d7071ada-e1c4-4eb9-bfb8-a4eec9c5e1b6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="48bad13a-d4c3-4f85-9cdb-3759a17879ff"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9248a4b8-78fe-42fe-9797-13953f3f07ee"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e65a49c9-e97b-414d-b70c-040dcbead7ab"/>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Володин А.А.</vendor>
+  <version>1.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Проектная работа Володина А.А. в рамках CaseLab</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Проектная работа Володина А.А. в рамках CaseLab от АО &quot;Гринатом&quot;</value>
+  </detailedInformation>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="2dacda51-40b1-4390-853f-520c351de39d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
+  <subsystems>Subsystem.Отчетность</subsystems>
+  <subsystems>Subsystem.Настройка</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <commonPictures>CommonPicture.Закупки</commonPictures>
+  <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonPictures>CommonPicture.Справочники</commonPictures>
+  <commonPictures>CommonPicture.Отчетность</commonPictures>
+  <commonPictures>CommonPicture.Настройки</commonPictures>
+  <commonPictures>CommonPicture.Документы</commonPictures>
+  <commonPictures>CommonPicture.ПиццаДляЧека</commonPictures>
+  <sessionParameters>SessionParameter.СотрудникТекущегоПользователя</sessionParameters>
+  <sessionParameters>SessionParameter.ВремяНачалаСеанса</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <commonModules>CommonModule.ТекущийСотрудникСервер</commonModules>
+  <commonModules>CommonModule.ТекущийСотрудникВызовСервера</commonModules>
+  <commonModules>CommonModule.ПроверкаИННСервер</commonModules>
+  <commonModules>CommonModule.ПроверкаИННКлиент</commonModules>
+  <commonModules>CommonModule.НДСКлиент</commonModules>
+  <commonModules>CommonModule.НДССервер</commonModules>
+  <commonModules>CommonModule.ПроверкаРеквизитовБанкаКлиент</commonModules>
+  <commonModules>CommonModule.ЦеныВызовСервера</commonModules>
+  <commonModules>CommonModule.ЦеныСервер</commonModules>
+  <commonModules>CommonModule.КоличествоУпаковокКлиент</commonModules>
+  <commonModules>CommonModule.КоличествоУпаковокСервер</commonModules>
+  <commonModules>CommonModule.АктуализацияСтатусовЗаказовСервер</commonModules>
+  <commonModules>CommonModule.АктуализацияСтатусовЗаказовВызовСервера</commonModules>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <constants>Constant.ПроцентПрибыли</constants>
+  <constants>Constant.ВремяПриготовления</constants>
+  <constants>Constant.ВремяДоставки</constants>
+  <constants>Constant.ИспользоватьПромоНаСкидки</constants>
+  <constants>Constant.ПереодичностьПроверки</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.РеквизитыОрганизации</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documentNumerators>DocumentNumerator.НумераторПТУ</documentNumerators>
+  <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <documentJournals>DocumentJournal.ЖурналЗаказов</documentJournals>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <enums>Enum.ТипНоменклатуры</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <enums>Enum.СтавкиНДС</enums>
+  <enums>Enum.СтатусЗаказаПоставщика</enums>
+  <enums>Enum.СтатусЗаказаПокупателя</enums>
+  <reports>Report.ЗакупкиТоваров</reports>
+  <reports>Report.ОстаткиТоваров</reports>
+  <reports>Report.ОтчетОДоставках</reports>
+  <reports>Report.ВаловаяПрибыль</reports>
+  <dataProcessors>DataProcessor.ВозведениеВСтепень</dataProcessors>
+  <dataProcessors>DataProcessor.ДеньНеделиКонцаГода</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСМассивом</dataProcessors>
+  <dataProcessors>DataProcessor.ДиаграммаВаловаяПрибыльСотрудников</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаПрайсаИзЭксель</dataProcessors>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <informationRegisters>InformationRegister.Изображения</informationRegisters>
+  <informationRegisters>InformationRegister.Промо</informationRegisters>
+  <informationRegisters>InformationRegister.СтраховойЗапас</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Доставки</accumulationRegisters>
+</mdclass:Configuration>

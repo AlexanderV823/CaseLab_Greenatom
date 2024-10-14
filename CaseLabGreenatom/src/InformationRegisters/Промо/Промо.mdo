@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83337f18-57ed-4de4-9a12-774dfac5a588">
+  <producedTypes>
+    <selectionType typeId="2b080af3-7928-41f4-97ba-62105015d260" valueTypeId="8805859a-5d85-4d31-860a-fdeaa78a8f8a"/>
+    <listType typeId="5072766f-11ea-4162-848c-6cf80c31ec19" valueTypeId="c359b9d3-3859-4c61-9872-55e759463b49"/>
+    <managerType typeId="5e8ac91e-5a1f-4fc5-89ee-59d30ca7b923" valueTypeId="edcc481d-e1e1-4280-ad39-a0632a527568"/>
+    <recordSetType typeId="b83c424d-54c8-4bd9-bd3e-57b72b35cc0a" valueTypeId="7f74d4e0-ffaf-400a-bc7a-342bdf5c252b"/>
+    <recordKeyType typeId="edf6b67d-47c7-4769-92fe-af6e40a3cabe" valueTypeId="ee096812-2a0f-4a4d-949d-83309e0c3fd2"/>
+    <recordType typeId="9905906b-820e-4275-bdb1-7818016792d1" valueTypeId="04dba23a-e0c1-4295-858e-3a5a5ba9f910"/>
+    <recordManagerType typeId="f1a09b1d-3623-4d0a-867a-1835291418af" valueTypeId="13111a7e-a026-4d46-a03d-45f3e4a44a90"/>
+  </producedTypes>
+  <name>Промо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Промо</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Промо.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Промо</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Промо</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Промо</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Промо</value>
+  </extendedListPresentation>
+  <resources uuid="23b96ce8-94fd-4ee9-b4d2-13ab0d3d638c">
+    <name>ТекстПромо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст промо</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="9c47e484-48a7-46a4-b60d-018b3eb8363d">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c1d11fb8-86a8-4d48-9442-49c7e9815afa">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

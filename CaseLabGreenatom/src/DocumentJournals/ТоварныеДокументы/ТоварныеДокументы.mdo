@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db995243-a46d-48e8-85d6-784181fef80e">
+  <producedTypes>
+    <selectionType typeId="24e2ac74-f132-403a-845d-bb7c7442dcd1" valueTypeId="e80d1d8d-ecc9-4310-8bd4-7509aa474b5b"/>
+    <listType typeId="1e256dad-123a-471f-b65e-8c06a47c3724" valueTypeId="820840c5-e239-4626-b182-53e161ec5064"/>
+    <managerType typeId="a686d74d-1b0e-4027-a33b-8115a665a1fc" valueTypeId="92c7b828-c539-4dc7-badb-04b377a33627"/>
+  </producedTypes>
+  <name>ТоварныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарные документы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ТоварныеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваров</registeredDocuments>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список поступлений и продаж</value>
+  </listPresentation>
+  <columns uuid="bf45d332-514f-44cc-a7b5-e68f6135b1c6">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Контрагент</references>
+    <references>Document.РеализацияТоваров.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="2aa63f54-5fea-48c2-84a3-e67f1ee28d37">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Ответственный</references>
+    <references>Document.РеализацияТоваров.Attribute.Ответственный</references>
+  </columns>
+  <forms uuid="409673a1-f27b-4f8d-b78d-568ca5f6c264">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

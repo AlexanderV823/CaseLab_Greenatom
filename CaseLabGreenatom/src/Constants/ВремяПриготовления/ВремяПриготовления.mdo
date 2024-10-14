@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cd696e2-69f2-4f53-a4cc-37219f4e0ac5">
+  <producedTypes>
+    <managerType typeId="fed54270-9eff-4b32-bbea-3b10980be988" valueTypeId="6f02fbce-5026-403c-8af0-0de2ca4ff5c3"/>
+    <valueManagerType typeId="32e04bc9-5daf-4a56-877f-3c40a09c0549" valueTypeId="6d566c87-668a-4105-aae3-127e00a846e5"/>
+    <valueKeyType typeId="f82efe8b-1fc2-4e7e-83aa-9ae09da75480" valueTypeId="c8c2ff80-0eff-4133-9777-9560dda3cc5d"/>
+  </producedTypes>
+  <name>ВремяПриготовления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время приготовления</value>
+  </synonym>
+  <comment>Указывается значение в секундах</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

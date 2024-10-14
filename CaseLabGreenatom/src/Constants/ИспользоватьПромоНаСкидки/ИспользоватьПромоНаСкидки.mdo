@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cc8deb7-2823-47db-8d8f-e473af83752b">
+  <producedTypes>
+    <managerType typeId="a28645c5-123c-4e00-b194-3325187f049b" valueTypeId="dd71c6a5-2c0c-4e3b-a7de-5d9f28f3bef5"/>
+    <valueManagerType typeId="32ebea50-c921-424f-a940-ad34253cb00e" valueTypeId="13930308-363b-47a2-8d9a-5e662d04b965"/>
+    <valueKeyType typeId="8f8255f3-e590-4a8b-a88f-62312e39419c" valueTypeId="6acd22b4-e63e-4bc6-89cd-b4b2d1cc9ff8"/>
+  </producedTypes>
+  <name>ИспользоватьПромоНаСкидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать промо на скидки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
